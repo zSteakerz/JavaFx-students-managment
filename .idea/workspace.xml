@@ -9,18 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a64d8a-17ef-4b27-a33d-4df965cd55b2" name="Changes" comment="First project setup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/nemk/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/nemk/controllers/MarksManagementTabController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/nemk/controllers/ReportsTabController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/nemk/controllers/StudentsManagementTabController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/nemk/controllers/SubjectsManagementTabController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/students-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/subjects-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d3a64d8a-17ef-4b27-a33d-4df965cd55b2" name="Changes" comment="created controllers and views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/marks-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/marks-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/nemk/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/nemk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/nemk/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/students-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml/students-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/edu/nemk/fxml" />
@@ -92,7 +85,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657300201195</updated>
-      <workItem from="1657300202628" duration="4031000" />
+      <workItem from="1657300202628" duration="5438000" />
+      <workItem from="1657376164571" duration="120000" />
+      <workItem from="1657376290912" duration="1337000" />
+      <workItem from="1657377632189" duration="468000" />
+      <workItem from="1657378107189" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="First project setup">
       <created>1657301338068</created>
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657301338068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created controllers and views">
+      <created>1657356405457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657356405457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="First project setup" />
+    <MESSAGE value="created controllers and views" />
+    <option name="LAST_COMMIT_MESSAGE" value="created controllers and views" />
   </component>
 </project>

@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<Tab xmlns="http://javafx.com/javafx"
-     xmlns:fx="http://javafx.com/fxml"
-     fx:controller="edu.nemk.controllers.StudentsManagementTabController">
-
-</Tab>
+<BorderPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.nemk.controllers.StudentsManagementTabController">
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox alignment="CENTER">
+                    <children>
+                        <Label text="Вибрати групу(и)" textAlignment="CENTER">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                        </Label>
+                        <ComboBox minHeight="40.0" prefWidth="150.0">
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin></ComboBox>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER">
+                    <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Видалити" textAlignment="CENTER">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                        </Button>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER">
+                    <children>
+                        <Button mnemonicParsing="false" text="Імпорт студентів" textAlignment="CENTER">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="50.0" />
+                     </VBox.margin>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </top>
+   <right>
+      <VBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Separator prefWidth="200.0" />
+            <Label contentDisplay="CENTER" text="Ім'я студента" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <TextField>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Виберіть групу">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ComboBox prefWidth="150.0" />
+            <Button mnemonicParsing="false" text="Додати">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Label text="ID">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField maxWidth="100.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" text="Видалити студента">
+               <VBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

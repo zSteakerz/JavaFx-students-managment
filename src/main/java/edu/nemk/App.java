@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import jfxtras.styles.jmetro8.JMetro;
 
 import java.io.IOException;
 
@@ -16,7 +17,10 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("main-view"), 1200, 800);
+        Parent root = loadFXML("main-view");
+        JMetro jMetro = new JMetro(JMetro.Style.LIGHT);
+        jMetro.applyTheme(root);
+        scene = new Scene(root, 1000, 800);
         stage.setScene(scene);
         stage.show();
     }
